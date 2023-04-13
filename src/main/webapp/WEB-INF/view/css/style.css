@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #b8e6e4b5;
+    flex-direction: column;
+    align-content: center;
+}
+
+.container-employees {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: auto;
+    margin: 150px auto auto;
+    background-color: #a1a3b180;
+
+    border-style: solid;
+    border-radius: 30px;
+    border-color: #1b1d1f;
+}
+
+.container-table {
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+    margin: auto;
+    padding: 20px;
+}
+.table-block {
+    padding-left: 20px;
+    padding-top: 3px;
+    font-size: 20px;
+}
+
+.input-button-ok {
+    width: auto;
+    height: auto;
+
+    margin-top: 10px;
+    max-width: 38px;
+    padding: 5px;
+    display: flex;
+    font-size: 16px;
+    border-radius: 6px;
+    border-width: 1px;
+    align-content: center;
+}
+
+.input-button-add {
+    width: auto;
+    height: auto;
+
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+.form-input-data {
+    width: 80%;
+    height: 23px;
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.form-input-header {
+    font-style: italic;
+}
+.form-form-object {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.table-header {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.table-update-button, .table-delete-button {
+    width: auto;
+    height: auto;
+    padding: 5px;
+
+    font-size: 16px;
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+.table-update-button:hover, .input-button-add:hover, .table-delete-button:hover, .input-button-ok:hover {
+    background-color: aqua;
+}
+
+
